@@ -1,11 +1,11 @@
 import Form from "./Form";
 
-function FormWrapper() {
+const FormWrapper = () => {
 	return (
 		<div>
 			<Form />
 		</div>
 	);
-}
+};
 
 export default FormWrapper;
